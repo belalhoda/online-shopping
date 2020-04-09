@@ -16,6 +16,13 @@
 
 	<dependencies>
 
+		<!-- Link backend project -->
+		<dependency>
+			<groupId>com.belal</groupId>
+			<artifactId>ecommercebackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<!-- JAVAEE-API -->
 		<dependency>
 			<groupId>org.apache.tomee</groupId>
@@ -38,7 +45,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-		
+
 		<!-- JSTL DEPENDENCIES -->
 		<dependency>
 			<groupId>jstl</groupId>

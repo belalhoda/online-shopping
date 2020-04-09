@@ -1,5 +1,5 @@
-$(function(){
-	//solving the active menu problems
+$(function() {
+	// solving the active menu problems
 	switch (menu) {
 	case 'About':
 		$('#about').addClass('active');
@@ -7,10 +7,13 @@ $(function(){
 	case 'Contact':
 		$('#contact').addClass('active');
 		break;
+	case 'All Products':
+		$('#listProducts').addClass('active');
+		break;
 	default:
-		$('#home').addClass('active');
+		$('#listProducts').addClass('active');
+		$('#a_'+menu).addClass('active');
 		break;
 	}
-	
-	
+
 });
